@@ -1,0 +1,78 @@
+.card {
+    width: 250px; /* Fixed width for the card */
+    max-width: 100%; /* Ensures the card does not exceed the container's width */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .swiper-slide {
+        width: calc(100% / 2) !important; /* Two slides per view on tablet */
+    }
+}
+
+@media (max-width: 480px) {
+    .swiper-slide {
+        width: 100% !important; /* One slide per view on mobile */
+    }
+}
+
+
+/* Add your styles here */
+#Events {
+    padding: 2rem 4%;
+    margin-top: 5rem;
+    color: white;
+  }
+  
+  .circularxx {
+    font-family: 'CircularXX', sans-serif;
+  }
+  
+  .mySwiper {
+    margin: 1.5rem 4%;
+  }
+  
+  .cart-min-h {
+    min-height: 500px;
+  }
+  
+  @media (min-width: 640px) {
+    .cart-min-h {
+      min-height: 580px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .cart-min-h {
+      min-height: 550px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .cart-min-h {
+      min-height: 580px;
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  /* Swiper specific styles */
+  .swiper-slide {
+    position: relative;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .swiper-slide.duplicate {
+    opacity: 0;
+  }
+  

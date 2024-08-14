@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std Bold";
+  src: url("./assets/fonts/Bold.otf");
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std Medium";
+  src: url("./assets/fonts/Medium.otf");
+}
+
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std Light";
+  src: url("./assets/fonts/Light.otf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "circularxx";
+  src: url("./assets/fonts/FontsFree-Net-CircularStd-Bold.ttf");
+}
+.circularxx {
+    font-family: "circularxx";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.9px;
+}
+
+.ITC_Avant_Garde_Gothic_Std_Bold {
+  font-family: "ITC Avant Garde Gothic Std Bold";
+}
+
+.ITC_Avant_Garde_Gothic_Std_Medium {
+  font-family: "ITC Avant Garde Gothic Std Medium";
+}
+
+.ITC_Avant_Garde_Gothic_Std_Light {
+  font-family: "ITC Avant Garde Gothic Std Light";
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "ITC Avant Garde Gothic Std Light";
+}
+
+.hidden-scrollbar {
+  overflow-y: auto; /* Enables vertical scrolling */
+  scrollbar-width: none; /* For Firefox */
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* styles.css */
+.card {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.bg-gradient {
+  background-image: linear-gradient(to right, #09264a, #0b0e1f, #4d1839);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.web-text {
+  background: linear-gradient(to bottom, #ff0079, #632084);
+}
+@media (max-width: 550px) {
+  .circularxx{
+    font-family: "circularxx";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36.9px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 634px) {
+  .spacing {
+    gap: 30px;
+  }
+  .spacing2 {
+    gap: 25px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .spacing {
+    gap: 20px;
+  }
+  .spacing2 {
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 634px) {
+  .spacing {
+    gap: 30px;
+  }
+  .spacing2 {
+    gap: 25px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .spacing {
+    gap: 20px;
+  }
+  .spacing2 {
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 817px) {
+  .robot-box-1 {
+    display: block !important;
+    height: 100% !important;
+    margin-left: 60px;
+  }
+  .text-center-1 {
+    text-align: center !important;
+  }
+  .remove-mg {
+    margin-top: 30px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+  .less-margin {
+    margin-left: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
+  .item-space {
+    gap: 0 !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 930px) {
+  .remove-ml{
+    margin-left: 10% !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1235px) {
+  .increse-w {
+    width: 95% !important;
+    margin: auto !important;
+  }
+}
+
+
+@media screen and (min-width: 1250px) and (max-width: 1365px) {
+  .cart-min-h {
+    min-height: 620px !important;
+  }
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 640px) {
+  .cart-min-h {
+    min-height: 620px !important;
+  }
+}
