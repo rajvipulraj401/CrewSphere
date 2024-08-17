@@ -12,11 +12,14 @@ import Mentor from "./Mentor";
 
 const Inclubotor = () => {
   return (
-    <div id="about" className="custom-pink-gradient px-4 lg:px-[5%] w-full py-16">
+    <div
+      id="about"
+      className="custom-pink-gradient px-4 lg:px-[5%] w-full py-16"
+    >
       {/* Heading and Paragraph Section */}
       <div className="flex justify-center items-center text-center h-[150px]">
         <h3 className="text-[42px] leading-[50px] text-purple-700 ITC_Avant_Garde_Gothic_Std_Medium ">
-          What is {" "}
+          What is{" "}
           <span className="bg-gradient-to-b from-pink-500 to-purple-800 text-transparent bg-clip-text">
             Crewsphere ?
           </span>
@@ -27,29 +30,27 @@ const Inclubotor = () => {
 
       <div className="grid grid-cols-1 mt-2 md:grid-cols-2 gap-4 md:gap-8 md:py-4">
         <div className="relative h-52 text-3xl font-extrabold flex items-end">
-          <div className="absolute h-full inset-0 bg-cover bg-center rounded-xl" style={{ backgroundImage: `url(${g1})` }}>
+          <div
+            className="absolute h-full inset-0 bg-cover bg-center rounded-xl"
+            style={{ backgroundImage: `url(${g1})` }}
+          >
             <div className="absolute h-full w-full bg-[#05071D] opacity-70 rounded-xl"></div>
           </div>
           <div className="relative p-4 text-white opacity-100 flex flex-col flex-wrap w-30 ">
-            <div className="flex gap-2 circularxx ">
-              We exhibit
-            </div>
-            <div className="circularxx ">
-              Humility
-            </div>
+            <div className="flex gap-2 circularxx ">We exhibit</div>
+            <div className="circularxx ">Humility</div>
           </div>
         </div>
         <div className="relative h-52 text-3xl font-extrabold flex items-end">
-          <div className="absolute inset-0 bg-cover bg-center rounded-xl " style={{ backgroundImage: `url(${g3})` }}>
+          <div
+            className="absolute inset-0 bg-cover bg-center rounded-xl "
+            style={{ backgroundImage: `url(${g3})` }}
+          >
             <div className="absolute h-full w-full bg-[#05071D] opacity-70 rounded-xl"></div>
           </div>
           <div className="relative p-4 text-white opacity-100 flex flex-col flex-wrap w-30">
-            <div className="flex gap-2 circularxx ">
-              We conduct ourselves
-            </div>
-            <div className="circularxx ">
-              with Integrity
-            </div>
+            <div className="flex gap-2 circularxx ">We conduct ourselves</div>
+            <div className="circularxx ">with Integrity</div>
           </div>
         </div>
       </div>
@@ -63,12 +64,8 @@ const Inclubotor = () => {
             <div className="absolute h-full w-full bg-[#05071D] opacity-70 rounded-xl"></div>
           </div>
           <div className="relative p-4 text-white opacity-100 flex flex-col flex-wrap w-full">
-            <div className="flex gap-2 circularxx">
-              We maintain an open
-            </div>
-            <div className="circularxx">
-              approach
-            </div>
+            <div className="flex gap-2 circularxx">We maintain an open</div>
+            <div className="circularxx">approach</div>
           </div>
         </div>
         <div className="div-2 relative min-h-52 text-3xl font-extrabold flex items-end">
@@ -80,9 +77,7 @@ const Inclubotor = () => {
           </div>
           <div className="relative p-4 text-white opacity-100 flex flex-col sm:flex-row w-full flex-wrap lg:gap-4 sm:items-end">
             <div className="sm:w-[68%] flex gap-2">
-              <div className="circularxx">
-                We take ownership of  our actions
-              </div>
+              <div className="circularxx">We take ownership of our actions</div>
             </div>
             <div className="w-[40%] sm:w-[28%]">
               <img src={c4} alt="" className="w-full" />
@@ -91,11 +86,10 @@ const Inclubotor = () => {
         </div>
       </div>
 
-
       {/* Incubator Program Section */}
       <div className="bg-custom-pink-gradient">
+        {/* It is defined in tailwind config file */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-4">
-
           <div className="relative">
             <a href="https://build.crewsphere.io/">
               <img src={in1} alt="incubator" className="w-[100%] h-[98%]" />
